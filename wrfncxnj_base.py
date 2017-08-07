@@ -27,7 +27,7 @@ import netCDF4 as ncdf
 import numpy as np
 from glob import glob
 from datetime import datetime, timedelta
-import sys, time, string, csv, os, shutil, glob, re
+import sys, time, string, csv, os, shutil, re
 from wrfncxnj_cli import opt, args
 
 class Constants:
