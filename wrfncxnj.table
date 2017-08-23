@@ -29,6 +29,7 @@ REGIME     ; regime ; Stability regime (1=Night/Stable, 2=Mech. Turb., 3=Forced 
 RMOL       ; mol    ; Monin Obukhov Length                              ; monin_obukhov_length                              ; m          ; 1/RMOL              
 POTEVP     ; evspsblpot; Potential Evapotranspiration                   ; potential_water_evaporation_flux                  ; kg m-2 s-1 ; deaccumulate_flux   
 SFROFF     ; mrros  ; Surface runoff                                    ; surface_runoff_flux                               ; kg m-2 s-1 ; deaccumulate_flux   
+SMCREL     ; mrsord ; Relative Soil Moisture                            ; Relative Soil Moisture                            ; %          ; mask_land              ; s
 SMOIS      ; mrsosd ; Volume fraction of condensed water in soil        ; volume_fraction_of_condensed_water_in_soil        ; m3 m-3     ; mask_land              ; s   
 SNOWH      ; snd    ; Snow Depth                                        ; surface_snow_thickness                            ; m         
 SST        ; sst    ; sea surface temperature                           ; sea_surface_temperature                           ; K          ; mask_sea            
