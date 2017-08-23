@@ -5,7 +5,7 @@
 #
 ALT        ; rho    ; Density of the air                                ; air_density                                       ; kg m-3     ; 1/ALT; p               
 ALBEDO     ; alb    ; Surface albedo                                    ; surface_albedo                                    ; 1         
-CLDFRA     ; clfr   ; Cloud fraction                                    ; cloud_fraction                                    ; 1          ;                        ; p
+CLDFRA     ; clfr   ; Cloud fraction                                    ; cloud_fraction                                    ; 1          ;                        ; z
 EL_MYJ     ; mxln   ; Mixing length in MYJ scheme                       ; mixing_length_in_myj                              ; m          ;                     
 GLW        ; rlds   ; Surface Downwelling Longwave Radiation            ; surface_downwelling_longwave_flux_in_air          ; W m-2      ;                     
 GRDFLX     ; hfso   ; Downward soil heat flux                           ; downward_heat_flux_in_soil                        ; W m-2      ; GRDFLX*(-1.)        
